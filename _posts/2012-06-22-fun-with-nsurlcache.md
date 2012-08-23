@@ -4,6 +4,7 @@ title: Fun with NSURLCache
 category: Development
 tags: [iOS, UIWebView]
 excerpt: This post covers an interesting use case for for an iOS App's shared NSURLCache.  Specifically I discuss, using the cache to manipulate sub-requests of a UIWebView and how it help me work around a pretty big bug in one of my Apps.
+
 ---
 {% include JB/setup %}
 

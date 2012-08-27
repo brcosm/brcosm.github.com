@@ -8,8 +8,6 @@ excerpt: This post covers an interesting use case for for an iOS App's shared NS
 ---
 {% include JB/setup %}
 
-### Some Background ... ###
-
 I recently built an internal iOS app at Amazon that we are using to accept textbook trade-ins on college campuses.  An Amazon associate scans a student's textbook with the phone's camera and, if we accept the book and the student is happy with the price, it deposits a giftcard direclty into that student's account.  While the app has a completely native UI, I use a UIWebView to get session cookies (one session for the student and one session for the associate).
 
 ### The Problem ###

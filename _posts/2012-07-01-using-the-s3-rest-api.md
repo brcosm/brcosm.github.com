@@ -8,8 +8,6 @@ excerpt: This post discusses some of my learnings from using the S3 REST API in 
 ---
 {% include JB/setup %}
 
-### Using the S3 REST API in iOS Apps ###
-
 One of the apps I am working on makes heavy use of Amazon's S3 web service.  Other than only offering XML(no JSON), I like the API.  The following post contains some notes and comments from my implementation.  I am working on a objective-C library that provides a higher level of abstraction than even the official [AWS iOS SDK][aws_ios_sdk].   
 
 ### Generating the HTTP request ###
